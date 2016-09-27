@@ -63,7 +63,7 @@ CREATE TABLE `vehicules` (
 
 LOCK TABLES `vehicules` WRITE;
 /*!40000 ALTER TABLE `vehicules` DISABLE KEYS */;
-INSERT INTO `vehicules` VALUES (1,'Audi'),(2,'Tesla'),(3,'VolksWagen'),(4,'Mercedes'),(5,'Skoda'),(6,'Volvo');
+INSERT INTO `vehicules` VALUES (1,'Tesla'),(2,'Audi'),(3,'VolksWagen'),(4,'Mercedes'),(5,'Skoda'),(6,'Volvo');
 /*!40000 ALTER TABLE `vehicules` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
